@@ -6,5 +6,18 @@ div#carouselIndicators{
 h5.card-title {
     text-align: center;
     font-size: 4rem;
-    color: rgb(33, 37, 41);
+    color: white;
+}
+
+body {
+    background-color: rgb(33, 37, 41);
+}
+
+section {
+    color: white;
+}
+
+div.card-body {
+    background-color: rgb(33, 37, 41);
+    color: white;
 }
