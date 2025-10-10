@@ -1,0 +1,20 @@
+10 HTML Tags:
+1.<nav>
+2.<div>
+3.<a>
+4.<button>
+5.<span>
+6.<ul>
+7.<li>
+8.<img>
+9.<iframe>
+10.<section>
+
+5 CSS properties:
+1.max-width
+2.margin
+3.text-align
+4.font-size
+5.color
+
+Bootstrap was used for navbar and a carousel.
