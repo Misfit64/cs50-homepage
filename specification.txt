@@ -17,4 +17,4 @@
 4.font-size
 5.color
 
-Bootstrap was used for navbar and a carousel.
+I used Bootstrap for the site's navbar and carousel, and then added JavaScript to enable the carousel's automatic cycling.

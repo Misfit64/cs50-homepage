@@ -38,7 +38,7 @@
         </section>
 
         <!-- carousel -->
-        <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+        <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -70,5 +70,18 @@
             <span class="visually-hidden">Next</span>
         </button>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Get a reference to the carousel element
+                const myCarousel = document.getElementById('carouselIndicators');
+
+                // Create a new carousel instance with the desired interval
+                const carousel = new bootstrap.Carousel(myCarousel, {
+                    interval: 3000, // 3 seconds
+                    pause: 'hover' // Optional: Pause on mouse hover
+                });  
+            });
+        </script>
     </body>
 </html>
